@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESTAURANT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Restaurant</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#" id="bill-link">Bill</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <select name="meal" id="search" >
+        <option  value="" >Select a meal</option>
+      </select>
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+  <div class="container "  id="result">
+       
+ </div>
+ <div id="bill" style="display: none;">
+    <ul id="bill-items"></ul>
+    <button id="close-bill" class="close-btn">✖</button>
+  <h2>Total Bill: ₹<span id="total">0</span></h2>
+
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
